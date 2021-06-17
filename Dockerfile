@@ -26,7 +26,7 @@ USER root
 WORKDIR /home/builder
 
 ENV \
-  DEFAULT_SCRIPT=python \
+  DEFAULT_SCRIPT=start \
   GIT_REPO="" \
   LANG=C.UTF-8 \
   PIPENV_VENV_IN_PROJECT=1

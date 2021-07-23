@@ -1,4 +1,4 @@
-ARG pyversion=3.9
+ARG pyversion=latest
 FROM python:${pyversion}
 
 RUN \
